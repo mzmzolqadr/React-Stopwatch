@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  width: 800px;
+  font-family: "Comfortaa";
+  margin: 30px auto;
+  color: #000000;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  font-size: 2.6em;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #00aaff;
+  color: #000000;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 150px;
+  margin: 10px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#button-start {
+  background: rgb(63, 255, 38);
+}
+
+#button-start:hover {
+  box-shadow: 4px 15px 4px rgb(75, 77, 75);
+}
+
+#button-lap {
+  background: #ffe224;
+}
+
+#button-lap:hover {
+  box-shadow: 4px 15px 4px rgb(75, 77, 75);
+}
+#button-stop {
+  background: #ff6f00;
+}
+
+#button-stop:hover {
+  box-shadow: 4px 15px 4px rgb(75, 77, 75);
+}
+#button-reset {
+  background: #ff0000;
+}
+
+#button-reset:hover {
+  box-shadow: 4px 15px 4px rgb(75, 77, 75);
+}
+
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: #f3f3f3;
+  border: none;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
